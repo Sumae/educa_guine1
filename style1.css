@@ -1,0 +1,508 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #00508F;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.cabecalho-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centro {
+  display: flex;
+  align-items: center;
+}
+
+.centro img {
+  width: 257px;
+  margin-right: 40px;
+}
+
+.centro h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.direita a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.direita a:hover {
+  color: #ddd;
+}
+
+nav {
+  background-color: #1866A4;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+/* Estilos da barra lateral */
+.barra-lateral {
+  width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item i {
+  margin-right: 10px;
+  color: #00508F;
+}
+
+.submenu {
+  margin-left: 20px;
+  display: none;
+}
+
+.barra-lateral li:hover .submenu {
+  display: block;
+}
+
+.submenu a {
+  display: block;
+  padding: 8px 0;
+  color: #666;
+  text-decoration: none;
+}
+
+/* Estilos do conteúdo principal */
+main {
+  display: flex;
+  margin-top: 20px;
+}
+
+.conteudo-principal {
+  flex: 1;
+  margin-left: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  width: calc(25% - 20px);
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-icone img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.card-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card-info p {
+  margin: 5px 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #00508F;
+}
+
+.acoes-rapidas {
+  margin-top: 30px;
+}
+
+.acoes-rapidas h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.acoes-rapidas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.acoes-rapidas li {
+  margin-bottom: 10px;
+}
+
+.acoes-rapidas a {
+  display: block;
+  padding: 10px;
+  background-color: #00508F;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.acoes-rapidas a:hover {
+  background-color: #1866A4;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+/* Estilos gerais */
+/* ... */
+
+/* Estilos do cabeçalho */
+/* ... */
+
+/* Estilos do rodapé */
+/* ... */
+
+/* Estilos da página de cadastro */
+.registration-form {
+  padding: 60px 0;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #00508F;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00508F;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1866A4;
+}
+
+.illustration {
+  flex: 1;
+  text-align: right;
+}
+
+.illustration img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Estilos adicionais */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.barra-lateral {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-right: 2rem;
+}
+
+.conteudo-principal {
+  flex: 1;
+  max-width: 800px;
+}
+
+.perfil {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.foto-perfil {
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.foto-perfil img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.informacoes {
+  flex: 1;
+}
+
+.atividades-recentes {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .barra-lateral {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Estilos gerais */
+/* ... */
+
+/* Estilos do cabeçalho */
+/* ... */
+
+/* Estilos do rodapé */
+/* ... */
+
+/* Estilos gerais */
+/* ... */
+
+/* Estilos do cabeçalho */
+/* ... */
+
+/* Estilos do rodapé */
+
+/* Seção sobre */
+#sobre {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+
+#sobre h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+}
+
+.content ul li i {
+  margin-right: 10px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.btn i {
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos existentes... */
+
+#autor-colaboradores {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+#autor-colaboradores .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.autor {
+  text-align: center;
+  max-width: 300px;
+}
+
+.autor img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.colaboradores {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.colaboradores h3 {
+  margin-bottom: 20px;
+}
+
+.colaboradores ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colaboradores li {
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.colaboradores li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
